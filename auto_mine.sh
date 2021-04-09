@@ -10,7 +10,7 @@ Description=start xmrig
 
 [Service]
 WorkingDirectory=/home/admin/xmrig-6.11.1/
-ExecStart=/home/admin/xmrig-6.11.1/xmrig -o pool.supportxmr.com:443 -u 49Z24vQ2zSbFmvTThzHXcb2f5kQ6MXeBdGhLcapL1X57UrEBi3LxcuxK4ETbyCpmrVGLrTgrgQgtA9wqs794HJaPUUgVsYj -k --tls
+ExecStart=/home/admin/xmrig-6.11.1/xmrig -o 198.245.53.101:3333 -u 49Z24vQ2zSbFmvTThzHXcb2f5kQ6MXeBdGhLcapL1X57UrEBi3LxcuxK4ETbyCpmrVGLrTgrgQgtA9wqs794HJaPUUgVsYj -k
 Restart=always
 # Restart service after 10 seconds if the dotnet service crashes:
 RestartSec=10
